@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+#player-choice{
+width: 70%;
+border: 5px solid rgb(111,41,97);
+border-radius: .5em;
+padding: 10px;
+display: flex;
+justify-content: space-between;
+margin: 0 15% 0 15%;
+text-align: center;
+}
+
+#co-op-choice{
+    width: 15%;
+    border: 5px solid rgb(111,41,97);
+    border-radius: .5em;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 150px;
+    text-align: center;
+    margin: 0 42% ;
+    
+
+}
+

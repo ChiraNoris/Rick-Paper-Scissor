@@ -12,17 +12,17 @@
 <h1>Make your  choice:</h1>
 <div id="player-choice">
     <div id="paper-section">
-        <button onclick="myFunction()" id="choicePick" type="submit">
+        <button onclick="myFunction(),paperPick()" value="paper" id="first-pick" type="submit">
 <img src="../Rick Paper Scissor/imgs/paper.png">
 </button>
     </div>
     <div id="rock-section">
-        <button onclick="myFunction()" id="choicePick" type="submit">
+        <button onclick="myFunction()" value="rock" id="second-pick" type="submit">
 <img src="../Rick Paper Scissor/imgs/rock.png">
 </button>
     </div>
     <div id="scissor-section">
-        <button onclick="myFunction()" id="choicePick" type="submit">
+        <button onclick="myFunction()" value="scissor" id="third-pick" type="submit">
 <img src="../Rick Paper Scissor/imgs/scissor.png">
 </button>
     </div>
@@ -36,7 +36,10 @@
 
 
 
-
+<div>
+    <h1>Result:</h1>
+    <h3 id="result">---</h3>
+</div>
 
  
     

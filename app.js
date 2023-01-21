@@ -24,11 +24,11 @@ if(getComputerChoice == 1){
 
 function paperPick(){
   if(finalChoice == 1){
-    alert("It's a Draw!!!")
+    document.getElementById("whyareunotworking").innerHTML = "It's a Draw!";
   }else if(finalChoice == 2){
-    alert("You WIN !!!")
+    document.getElementById("whyareunotworking").innerHTML = "You Win!";
   }else {
-    alert("You Lose!!!")
-  }
+    document.getElementById("whyareunotworking").innerHTML = "You Lose!";  }
 }
+
 
